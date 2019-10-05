@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MushroomCon : MonoBehaviour
+public class DragAndDropMushroom : MonoBehaviour
 {
     Vector3 offset;
 

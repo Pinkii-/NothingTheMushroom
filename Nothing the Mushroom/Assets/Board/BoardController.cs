@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,25 +21,13 @@ public class BoardController : MonoBehaviour
 
     void Start()
     {
-        mPots = new List<List<GameObject>>();
-        for (int i = 0; i < x; ++i)
-        {
-            mPots.Add(new List<GameObject>());
-            for (int j = 0; j < y; ++j)
-            {
-                GameObject pot = Instantiate(potPrefab, this.transform);
+        InitBoard();
+        GameObject mushroom = Instantiate(mushroomPrefab, mPots[x / 2][y / 2].transform);
 
-                pot.transform.position = new Vector2(i * tileSize - 2, j * tileSize - 2);
-
-                pot.GetComponent<PotScript>().mBoardController = this;
-
-                mPots[i].Add(pot);
-            }
-        }
-
-        GameObject mushroom = Instantiate(mushroomPrefab, mPots[x/2][y/2].transform);
+        MushroomControlerDeVerdad mushCon = mushroom.GetComponent<MushroomControlerDeVerdad>();
+        mushCon.mBoardController = this;
+        mushCon.mPos = new Vector2Int(x / 2, y / 2);
     }
-
 
     void Update()
     {
@@ -46,19 +35,21 @@ public class BoardController : MonoBehaviour
         {
             if (potSelected != null && potOvered != null)
             {
-                MushroomCon mushroomSelected = potSelected.GetComponentInChildren<MushroomCon>();
-                MushroomCon mushroomTarget = potOvered.GetComponentInChildren<MushroomCon>();
+                MushroomControlerDeVerdad mushroomSelected = potSelected.GetComponentInChildren<MushroomControlerDeVerdad>();
+                MushroomControlerDeVerdad mushroomTarget = potOvered.GetComponentInChildren<MushroomControlerDeVerdad>();
 
                 if (mushroomSelected != null)
                 {
                     mushroomSelected.transform.parent = potOvered.transform;
                     mushroomSelected.transform.localPosition = Vector3.zero;
+                    mushroomSelected.mPos = potOvered.GetComponent<PotScript>().mPos;
                 }
 
                 if (mushroomTarget != null)
                 {
                     mushroomTarget.transform.parent = potSelected.transform;
                     mushroomTarget.transform.localPosition = Vector3.zero;
+                    mushroomTarget.mPos = potSelected.GetComponent<PotScript>().mPos;
                 }
             }
 
@@ -78,5 +69,32 @@ public class BoardController : MonoBehaviour
     {
         potOvered = pot;
         Debug.Log("PotOver");
+    }
+
+
+    private void InitBoard()
+    {
+        mPots = new List<List<GameObject>>();
+        for (int i = 0; i < x; ++i)
+        {
+            mPots.Add(new List<GameObject>());
+            for (int j = 0; j < y; ++j)
+            {
+                GameObject pot = Instantiate(potPrefab, this.transform);
+
+                pot.transform.position = new Vector2(i * tileSize - 2, j * tileSize - 2);
+
+                var potS = pot.GetComponent<PotScript>();
+                potS.mBoardController = this;
+                potS.mPos = new Vector2Int(i, j);
+
+                mPots[i].Add(pot);
+            }
+        }
+    }
+
+    internal bool IsCenter(Vector2Int pos)
+    {
+        return pos == new Vector2Int(x/2, y/2);
     }
 }

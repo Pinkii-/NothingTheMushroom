@@ -5,6 +5,7 @@ using UnityEngine;
 public class PotScript : MonoBehaviour
 {
     public BoardController mBoardController;
+    public Vector2Int mPos;
 
     public void OnMouseOver()
     {
