@@ -149,4 +149,21 @@ public class BoardController : MonoBehaviour
         }
         return false;
     }
+
+    internal bool HasNeighboursRing(Vector2Int pos, int range)
+    {
+        for (int i = -range; i <= range; ++i)
+        {
+            for (int j = -range; j <= range; ++j)
+            {
+                if (i == 0 && j == 0) continue;
+
+                if (HasMushRoom(pos + new Vector2Int(i, j)))
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
