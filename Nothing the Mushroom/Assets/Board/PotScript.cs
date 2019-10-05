@@ -9,13 +9,10 @@ public class PotScript : MonoBehaviour
     Color overColor = new Color(1f, 0.66f, 0.2f);
     Color originalColor = new Color(1f, 0.46f, 0f);
 
-    public void OnMouseOver()
-    {
-        mBoardController.OnPotOver(this);
-    }
 
     public void OnMouseEnter()
     {
+        mBoardController.OnPotOver(this);
         GetComponentInChildren<SpriteRenderer>().color = overColor;
     }
 
@@ -23,12 +20,17 @@ public class PotScript : MonoBehaviour
     {
         GetComponentInChildren<SpriteRenderer>().color = originalColor;
         mBoardController.OnPotOver(null);
-
     }
 
     public void OnMouseDown()
     {
+        GetComponentInChildren<DragAndDropMushroom>()?.StartDrag();
         mBoardController.OnPotDown(this);
     }
-    
+
+    private void OnMouseDrag()
+    {
+        GetComponentInChildren<DragAndDropMushroom>()?.OnMouseDrag();
+    }
+
 }
