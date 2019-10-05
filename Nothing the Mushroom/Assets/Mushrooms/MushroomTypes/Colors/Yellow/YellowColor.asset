@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4868952874c10564ea7f43a6572dcf77, type: 3}
+  m_Name: YellowColor
+  m_EditorClassIdentifier: 
+  mHappyAnimator: {fileID: 9100000, guid: 5fd2f869ebb0bfa4da2f9978f0d983c1, type: 2}
+  mSadAnimator: {fileID: 9100000, guid: eb189e5e60a4ac14cad5b2a98c7766d4, type: 2}

@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cc686bce8ec0dd40924d70b77cc4581, type: 3}
-  m_Name: NothingData
+  m_Script: {fileID: 11500000, guid: 4868952874c10564ea7f43a6572dcf77, type: 3}
+  m_Name: ColorNothing
   m_EditorClassIdentifier: 
   mHappyAnimator: {fileID: 9100000, guid: cab85e23c50c5c144bd323e3570e51e9, type: 2}
   mSadAnimator: {fileID: 9100000, guid: 2399799d423d39c4c962da43819477bf, type: 2}

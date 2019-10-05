@@ -5,8 +5,7 @@ public abstract class MushroomBehaviour : ScriptableObject
 {
     private bool mWasHappy = true;
 
-    public RuntimeAnimatorController mHappyAnimator;
-    public RuntimeAnimatorController mSadAnimator;
+    public MushroomColor mMushroomColor;
 
     public abstract bool IsHappy(BoardController boardController, Vector2Int pos);
 
@@ -15,11 +14,11 @@ public abstract class MushroomBehaviour : ScriptableObject
         bool isHappy = IsHappy(mushroom.mBoardController, mushroom.mPos);
         if (isHappy && !mWasHappy)
         {
-            mushroom.GetComponent<Animator>().runtimeAnimatorController = mHappyAnimator;
+            mushroom.GetComponent<Animator>().runtimeAnimatorController = mMushroomColor.mHappyAnimator;
         }
         else if (!isHappy && mWasHappy)
         {
-            mushroom.GetComponent<Animator>().runtimeAnimatorController = mSadAnimator;
+            mushroom.GetComponent<Animator>().runtimeAnimatorController = mMushroomColor.mSadAnimator;
         }
 
         mWasHappy = isHappy;
