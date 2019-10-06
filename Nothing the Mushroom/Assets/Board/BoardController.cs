@@ -150,8 +150,9 @@ public class BoardController : MonoBehaviour
         return false;
     }
 
-    internal bool HasNeighboursRing(Vector2Int pos, int range)
+    internal int HasNeighboursRing(Vector2Int pos, int range)
     {
+        int amount = 0;
         for (int i = -range; i <= range; ++i)
         {
             for (int j = -range; j <= range; ++j)
@@ -160,10 +161,64 @@ public class BoardController : MonoBehaviour
 
                 if (HasMushRoom(pos + new Vector2Int(i, j)))
                 {
-                    return true;
+                    ++amount;
                 }
             }
         }
-        return false;
+        return amount;
     }
+
+    internal int FriendsAtRow(int row)
+    {
+        int amount = 0;
+        int i = row;
+        for(int j = 0; j < sizeY; ++j)
+        {
+            if(HasMushRoom(new Vector2Int(i, j)))
+            {
+                ++amount;
+            }
+        }
+        return amount;
+    }
+
+    internal int FriendsAtCol(int col)
+    {
+        int amount = 0;
+        int j = col;
+        for (int i = 0; i < sizeX; ++i)
+        {
+            if (HasMushRoom(new Vector2Int(i, j)))
+            {
+                ++amount;
+            }
+        }
+        return amount;
+    }
+
+    internal bool IsBorder(Vector2Int pos)
+    {
+        return IsTopBorder(pos) || IsBotBorder(pos) || IsRightBorder(pos) || IsLeftBorder(pos);
+    }
+
+    internal bool IsTopBorder(Vector2Int pos)
+    {
+        return pos.y == 0;
+    }
+
+    internal bool IsBotBorder(Vector2Int pos)
+    {
+        return pos.y == sizeY;
+    }
+
+    internal bool IsRightBorder(Vector2Int pos)
+    {
+        return pos.x == sizeX;
+    }
+
+    internal bool IsLeftBorder(Vector2Int pos)
+    {
+        return pos.x == 0;
+    }
+
 }

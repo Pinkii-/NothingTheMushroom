@@ -7,6 +7,6 @@ public class ManhatanNeighboursBehaviour : MushroomBehaviour
 {
     public override bool IsHappy(BoardController mBoardController, Vector2Int pos)
     {
-        return mBoardController.HasNeighboursRing(pos, 1);
+        return mBoardController.HasNeighboursRing(pos, 1) != 0;
     }
 }
