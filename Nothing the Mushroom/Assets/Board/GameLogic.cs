@@ -187,9 +187,17 @@ public class GameLogic : MonoBehaviour
     {
         // Present next round to the player with fancy animations :D
 
+        List<Vector2Int> mPosUsed = new List<Vector2Int>();
+
         foreach (MushroomDescriptor mush in mRounds[mCurrentRound].mMushroomsToSpawn)
         {
-            mush.mPos = mBoardController.GetEmptyCell();
+            Vector2Int pos = mBoardController.GetEmptyCell();
+            while (mPosUsed.Contains(pos))
+            {
+                pos = mBoardController.GetEmptyCell();
+            }
+            mush.mPos = pos;
+            mPosUsed.Add(pos);
         }
 
         mBoardController.SpawnRound(mRounds[mCurrentRound]);

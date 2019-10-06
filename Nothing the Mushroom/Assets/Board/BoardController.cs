@@ -19,6 +19,8 @@ public class BoardController : MonoBehaviour
     PotScript potSelected = null;
     PotScript potOvered = null;
 
+    System.Random random = new System.Random();
+
 
     private void SpawnMushroom(GameObject mushroomPrefab, int x, int y, MushroomBehaviour mushroomBehaviour, MushroomColor color)
     {
@@ -117,8 +119,6 @@ public class BoardController : MonoBehaviour
 
     internal Vector2Int GetEmptyCell()
     {
-        System.Random random = new System.Random();
-
         Vector2Int pos = new Vector2Int(random.Next(sizeX), random.Next(sizeY));
 
         while (HasMushRoom(pos))
