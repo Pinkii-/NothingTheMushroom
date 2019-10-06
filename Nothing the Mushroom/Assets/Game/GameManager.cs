@@ -11,6 +11,9 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        mainMenuLogic.enabled = false;
+        gameLogic.enabled = false;
+
         StartCoroutine(MainFlowCoroutine());
     }
 
