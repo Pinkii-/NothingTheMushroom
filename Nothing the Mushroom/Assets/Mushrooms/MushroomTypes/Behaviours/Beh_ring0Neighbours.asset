@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Beh_ring0Neighbours
   m_EditorClassIdentifier: 
   mMushroomColor: {fileID: 0}
-  behaviour: 0
+  behaviour: 7

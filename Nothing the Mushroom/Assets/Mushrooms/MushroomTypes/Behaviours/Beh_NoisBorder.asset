@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Beh_NoisBorder
   m_EditorClassIdentifier: 
   mMushroomColor: {fileID: 0}
-  behaviour: 0
+  behaviour: 16
