@@ -19,4 +19,9 @@ public class MushroomControlerDeVerdad : MonoBehaviour
     {
         mMushroomBehaviour.LittleHappyUpdate(this);
     }
+
+    public bool IsHappy()
+    {
+        return mMushroomBehaviour.IsHappy();
+    }
 }

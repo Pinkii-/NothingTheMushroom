@@ -23,4 +23,9 @@ public abstract class MushroomBehaviour : ScriptableObject
 
         mWasHappy = isHappy;
     }
+
+    internal bool IsHappy()
+    {
+        return mWasHappy;
+    }
 }
