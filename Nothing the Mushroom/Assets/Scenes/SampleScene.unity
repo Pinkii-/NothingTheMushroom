@@ -671,8 +671,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: aa1b575f360fd714e985628d9ebf3dfc, type: 2}
   - {fileID: 11400000, guid: 692e4651f32112c448c6ef34fabd9e43, type: 2}
   mMushroomColors:
-  - {fileID: 11400000, guid: 3332f26558d4b814bb8d8a59b6a1c1ba, type: 2}
-  - {fileID: 11400000, guid: 16ad80e30033d6545940de3d6d49b8f7, type: 2}
+  - {fileID: 11400000, guid: 1de3004ec037ec64fa62d44a90f568e8, type: 2}
+  - {fileID: 11400000, guid: ce88f722756e27548a2d33a1d5cff804, type: 2}
+  - {fileID: 11400000, guid: 9dbc097dedd71f9469c9f6f4d2aa45f3, type: 2}
+  - {fileID: 11400000, guid: e725ef5567195414cb54b5f665362534, type: 2}
+  - {fileID: 11400000, guid: dda2f7f9ac8f63a47977c5a9d27a4290, type: 2}
+  - {fileID: 11400000, guid: 1c30d0599925fce4fb56954eaac4ddad, type: 2}
+  - {fileID: 11400000, guid: 37cb1072c2072a84bb080f0ade22a3fc, type: 2}
+  - {fileID: 11400000, guid: 9abc77efec1896d4e8e7e5cce9ae6cee, type: 2}
   - {fileID: 11400000, guid: f23bf98a27449de478c398fd5b824873, type: 2}
   - {fileID: 11400000, guid: 8f5a1d2d3eef3804ba90f14aca35e276, type: 2}
   mBoardController: {fileID: 552537659}
