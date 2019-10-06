@@ -5,8 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     #region inspector properties
-    [SerializeField] private MainMenuLogic mainMenuLogic;
-    [SerializeField] private GameLogic gameLogic;
+    [SerializeField] private MainMenuLogic mainMenuLogic = null;
+    [SerializeField] private GameLogic gameLogic = null;
     #endregion
 
     void Start()

@@ -94,7 +94,7 @@ public class GameLogic : MonoBehaviour
             for (int i = 0; i < numColors; ++i)
             {
                 int index = random.Next(picked.Count);
-                mushroomBases[i].mColor = mMushroomColors[index];
+                mushroomBases[i].mColor = mMushroomColors[picked[index]];
 
                 picked.Remove(index);
             }
@@ -106,7 +106,7 @@ public class GameLogic : MonoBehaviour
             for (int i = 0; i < numColors; ++i)
             {
                 int index = random.Next(picked.Count);
-                mushroomBases[i].mBehaviour = mMushroomBehaviours[index];
+                mushroomBases[i].mBehaviour = mMushroomBehaviours[picked[index]];
 
                 picked.Remove(index);
             }

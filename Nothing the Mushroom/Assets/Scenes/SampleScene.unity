@@ -696,7 +696,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f23bf98a27449de478c398fd5b824873, type: 2}
   - {fileID: 11400000, guid: 8f5a1d2d3eef3804ba90f14aca35e276, type: 2}
   mBoardController: {fileID: 552537659}
-  mBoardSize: {x: 9, y: 9}
+  mBoardSize: {x: 6, y: 6}
   maxRounds: 10
   numColors: 4
 --- !u!4 &1521799459
