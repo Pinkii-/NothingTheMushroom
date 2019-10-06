@@ -19,18 +19,6 @@ public class BoardController : MonoBehaviour
     PotScript potSelected = null;
     PotScript potOvered = null;
 
-    public List<MushroomBehaviour> mushroomBehaviours;
-    public List<MushroomColor> mushroomColors;
-
-    void Start()
-    {
-        InitBoard();
-
-        SpawnMushroom(mMushroomPrefab, sizeX / 2, sizeY / 2, mushroomBehaviours[1], mushroomColors[1]);
-        SpawnMushroom(mMushroomPrefab, sizeX / 3, sizeY / 5, mushroomBehaviours[0], mushroomColors[0]);
-        SpawnMushroom(mMushroomPrefab, sizeX / 4, sizeY / 4, mushroomBehaviours[1], mushroomColors[2]);
-        SpawnMushroom(mMushroomPrefab, sizeX / 5, sizeY / 3, mushroomBehaviours[1], mushroomColors[3]);
-    }
 
     private void SpawnMushroom(GameObject mushroomPrefab, int x, int y, MushroomBehaviour mushroomBehaviour, MushroomColor color)
     {
@@ -96,7 +84,7 @@ public class BoardController : MonoBehaviour
         Debug.Log("PotOver");
     }
 
-    private void InitBoard()
+    public void InitBoard()
     {
         mPots = new List<List<GameObject>>();
         for (int i = 0; i < sizeX; ++i)
@@ -114,6 +102,16 @@ public class BoardController : MonoBehaviour
 
                 mPots[i].Add(pot);
             }
+        }
+    }
+
+    internal void SpawnRound(GameLogic.Round round)
+    {
+        Debug.Log("RRip");
+        foreach (GameLogic.MushroomDescriptor mushroom in round.mMushroomsToSpawn)
+        {
+            Debug.Log("DMuuushsroom");
+            SpawnMushroom(mMushroomPrefab, mushroom.mPos.x, mushroom.mPos.y, mushroom.mBehaviour, mushroom.mColor);
         }
     }
 
