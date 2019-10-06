@@ -1,7 +1,187 @@
 fileFormatVersion: 2
 guid: 1ec43bca5b01ae64eaf530b524d13a0c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1852047447812870544
+    second: muchmuchrooms_0
+  - first:
+      213: -8415404964195843523
+    second: muchmuchrooms_1
+  - first:
+      213: -1438844424428597300
+    second: muchmuchrooms_2
+  - first:
+      213: -4854422546347246002
+    second: muchmuchrooms_3
+  - first:
+      213: 4839364281449598331
+    second: muchmuchrooms_4
+  - first:
+      213: -7872522650497937206
+    second: muchmuchrooms_5
+  - first:
+      213: 3345618637816987727
+    second: muchmuchrooms_6
+  - first:
+      213: -456779198684155188
+    second: muchmuchrooms_7
+  - first:
+      213: 4277027887063232782
+    second: muchmuchrooms_8
+  - first:
+      213: 5656847578286384850
+    second: muchmuchrooms_9
+  - first:
+      213: -4335197499912125963
+    second: muchmuchrooms_10
+  - first:
+      213: 1920419390416830712
+    second: muchmuchrooms_11
+  - first:
+      213: -5670939239283622769
+    second: muchmuchrooms_12
+  - first:
+      213: 892057137776424791
+    second: muchmuchrooms_13
+  - first:
+      213: -3433772704004195316
+    second: muchmuchrooms_14
+  - first:
+      213: -303874939279465293
+    second: muchmuchrooms_15
+  - first:
+      213: -635262794020489008
+    second: muchmuchrooms_16
+  - first:
+      213: -3717320948834687936
+    second: muchmuchrooms_17
+  - first:
+      213: 7560406029759240037
+    second: muchmuchrooms_18
+  - first:
+      213: -5875650635556098495
+    second: muchmuchrooms_19
+  - first:
+      213: 9175682562324713708
+    second: muchmuchrooms_20
+  - first:
+      213: 1619981603731611871
+    second: muchmuchrooms_21
+  - first:
+      213: 5655948316548256481
+    second: muchmuchrooms_22
+  - first:
+      213: 2198498700222915059
+    second: muchmuchrooms_23
+  - first:
+      213: 1728175336741883089
+    second: muchmuchrooms_24
+  - first:
+      213: -5343737298970109859
+    second: muchmuchrooms_25
+  - first:
+      213: -8214870603600385604
+    second: muchmuchrooms_26
+  - first:
+      213: -7514214370912205606
+    second: muchmuchrooms_27
+  - first:
+      213: -3925465462216093496
+    second: muchmuchrooms_28
+  - first:
+      213: -1440157960798956983
+    second: muchmuchrooms_29
+  - first:
+      213: 4657395141994290709
+    second: muchmuchrooms_30
+  - first:
+      213: 328105183034319406
+    second: muchmuchrooms_31
+  - first:
+      213: 2176420512050718209
+    second: muchmuchrooms_32
+  - first:
+      213: -7108476529670530330
+    second: muchmuchrooms_33
+  - first:
+      213: 3780149665681155074
+    second: muchmuchrooms_34
+  - first:
+      213: 360614719359426286
+    second: muchmuchrooms_35
+  - first:
+      213: 4561882862644169789
+    second: muchmuchrooms_36
+  - first:
+      213: 36420771749952317
+    second: muchmuchrooms_37
+  - first:
+      213: -7934347390302223114
+    second: muchmuchrooms_38
+  - first:
+      213: -5203325317881119218
+    second: muchmuchrooms_39
+  - first:
+      213: -7365182900690199519
+    second: muchmuchrooms_40
+  - first:
+      213: -2753914010911982607
+    second: muchmuchrooms_41
+  - first:
+      213: -6977608505380167374
+    second: muchmuchrooms_42
+  - first:
+      213: -7780590755303874969
+    second: muchmuchrooms_43
+  - first:
+      213: -2559195802456305216
+    second: muchmuchrooms_44
+  - first:
+      213: 2550578089008058924
+    second: muchmuchrooms_45
+  - first:
+      213: -1729402247342575225
+    second: muchmuchrooms_46
+  - first:
+      213: 8688612299350755737
+    second: muchmuchrooms_47
+  - first:
+      213: 5445418248360501439
+    second: muchmuchrooms_48
+  - first:
+      213: -4847637482898542191
+    second: muchmuchrooms_49
+  - first:
+      213: -7347822276053629217
+    second: muchmuchrooms_50
+  - first:
+      213: 510379413637351430
+    second: muchmuchrooms_51
+  - first:
+      213: 4287867941342824127
+    second: muchmuchrooms_52
+  - first:
+      213: -332853985376065411
+    second: muchmuchrooms_53
+  - first:
+      213: -6759975662059589772
+    second: muchmuchrooms_54
+  - first:
+      213: 6714423431943969833
+    second: muchmuchrooms_55
+  - first:
+      213: 693190878266651217
+    second: muchmuchrooms_56
+  - first:
+      213: 4681070459379133504
+    second: muchmuchrooms_57
+  - first:
+      213: -3640279633004903664
+    second: muchmuchrooms_58
+  - first:
+      213: -556710526274170388
+    second: muchmuchrooms_59
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +220,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +250,1281 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: muchmuchrooms_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 347
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176a5a2fd7319834482321b09b543fb2
+      internalID: 1852047447812870544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 346
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4f6a7254c05e54ca878309120572ad
+      internalID: -8415404964195843523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 350
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3bcb186826e2942a1388dd0fe86811
+      internalID: -1438844424428597300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 350
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696c6bb23da74ed4f962480708e7d57d
+      internalID: -4854422546347246002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 351
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdebf2f3e28a13c48ac27a55b7fa0800
+      internalID: 4839364281449598331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_5
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 349
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afc92e6ea5137544940853c66daea14
+      internalID: -7872522650497937206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 311
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ea9329552de6f4e83161d4db30142f
+      internalID: 3345618637816987727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 310
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbc33c2114eb94499751ffc284b50e9
+      internalID: -456779198684155188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 311
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98fd3cff5587f340a2e0c78a95ab2df
+      internalID: 4277027887063232782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 312
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fa09ab14a709d49b1167484ba506c1
+      internalID: 5656847578286384850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 311
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fcde912040411439cdfdf68911ca61
+      internalID: -4335197499912125963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_11
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 310
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ba8c3d717281f479a755916d79cc96
+      internalID: 1920419390416830712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 273
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36d3dadd7d7cbf49b6f867ede834356
+      internalID: -5670939239283622769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 273
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24160b6b5dc598a4fbff55c039585946
+      internalID: 892057137776424791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 269
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571102a7c3431d04eae20f2ab607401d
+      internalID: -3433772704004195316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_15
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 269
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de506b2d4a1c724b99f830e48ad377a
+      internalID: -303874939279465293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 268
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5335e92dcf7bac48a7bbd7e2b9826e6
+      internalID: -635262794020489008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_17
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 268
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b535b5566c80194cabf9eb683620b50
+      internalID: -3717320948834687936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 237
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc42341f18123e547affeb04f140de4a
+      internalID: 7560406029759240037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_19
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 238
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d35cca3550722849858a5fa387ecac2
+      internalID: -5875650635556098495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_20
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 234
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ba7e80bc01be447bb52eb2cf8a79a5
+      internalID: 9175682562324713708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_21
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 234
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb17a55096981944a1fa5df4f4bb91e
+      internalID: 1619981603731611871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_22
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 232
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e6950dd4f4a5941abe3222879b0418
+      internalID: 5655948316548256481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_23
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 233
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69717a6c626a1ee4e8d47bbaaa332a54
+      internalID: 2198498700222915059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 205
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6917906f8987c144a5aa04db8dcd2fd
+      internalID: 1728175336741883089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 204
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29fd27132fc2844aa615364a7aa4d63
+      internalID: -5343737298970109859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_26
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 199
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905b4a860f3e19948bd729f6c6ae9336
+      internalID: -8214870603600385604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_27
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 200
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d1dacff12b2a44080d5f08c1b3c8c1
+      internalID: -7514214370912205606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_28
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 199
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb1737154b0a7c43aa16aec9e899019
+      internalID: -3925465462216093496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_29
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 200
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f226363aec0dac4ba155a5837623561
+      internalID: -1440157960798956983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_30
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 167
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04e3b36313203649a9b7d210a74c570
+      internalID: 4657395141994290709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 167
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c7981cf19211242a5551e354ed84a4
+      internalID: 328105183034319406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_32
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 165
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934585b472f779d4cbf1c863ce4a708e
+      internalID: 2176420512050718209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 165
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc99360f4f71a5249a736c1c634a2e6b
+      internalID: -7108476529670530330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_34
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 164
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385bbaedb48a15247834d1c9b8e77512
+      internalID: 3780149665681155074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_35
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 165
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3736ec822d4a8f43afb486ca8313938
+      internalID: 360614719359426286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 129
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20998336bf5986429f94e92a3888911
+      internalID: 4561882862644169789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_37
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 128
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993522d8b4cec9b469dc2fdeac2724b4
+      internalID: 36420771749952317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_38
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 124
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fe21d26fb5a84448edc92b9d975a23
+      internalID: -7934347390302223114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_39
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 125
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0932a56fd43720948b3e4a51d32c3c99
+      internalID: -5203325317881119218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_40
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 124
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e58ea14a69b1743a7b7546dae34ef8
+      internalID: -7365182900690199519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_41
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 123
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2105f7e2285e79342a966b777cfc7fef
+      internalID: -2753914010911982607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_42
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 83
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9378f6522ea24ee4d9c685b723c7e700
+      internalID: -6977608505380167374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 84
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a90af058eb049e4eac6597f46ee556f
+      internalID: -7780590755303874969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_44
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 84
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88c435ea2f155148b1133cc117a29aa
+      internalID: -2559195802456305216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 82
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bce6c9baa7d594da7908057ac4f31e
+      internalID: 2550578089008058924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_46
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 83
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea3f441ac5ccd74bb67a854463f7d24
+      internalID: -1729402247342575225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_47
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 85
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa935f6002e30784c8e976caf4702beb
+      internalID: 8688612299350755737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 46
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c8478a27b02444488d38ddaf6a2a13
+      internalID: 5445418248360501439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_49
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 47
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0dc78f60c62ee4e953131d047b2036
+      internalID: -4847637482898542191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_50
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 45
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2c093fa115cc64eb5ac517e6008ec3
+      internalID: -7347822276053629217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_51
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 44
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5734d4cadfc6f484ab9928d42f533332
+      internalID: 510379413637351430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_52
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 43
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba187c9118b0f8344876495306d72f6d
+      internalID: 4287867941342824127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_53
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 44
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f848066ac19170d4cbb53082c4233090
+      internalID: -332853985376065411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_54
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 13
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3acc345f0b5f6c45a755e817f584a6d
+      internalID: -6759975662059589772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_55
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 13
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989dfabc94131e343b8a7d0d9fa7435c
+      internalID: 6714423431943969833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_56
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 9
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514175263bc4d1043a84d2d0875440cc
+      internalID: 693190878266651217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_57
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 8
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6168490e76b9ea42a9ff8fbd5c64fc8
+      internalID: 4681070459379133504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_58
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 8
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa9ac55676256c44ad3e0684a48232c
+      internalID: -3640279633004903664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muchmuchrooms_59
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 8
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e85ac5e61f22842bfd45f042735c60
+      internalID: -556710526274170388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

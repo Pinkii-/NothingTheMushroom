@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &18035977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -668,16 +668,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mMushroomBehaviours:
   - {fileID: 11400000, guid: 6c1fc22023430e547bddb3885f7bd4d5, type: 2}
-  - {fileID: 11400000, guid: aa1b575f360fd714e985628d9ebf3dfc, type: 2}
   - {fileID: 11400000, guid: 692e4651f32112c448c6ef34fabd9e43, type: 2}
+  - {fileID: 11400000, guid: aa1b575f360fd714e985628d9ebf3dfc, type: 2}
+  - {fileID: 11400000, guid: 4fbe307d0886dde428023196f4914a8c, type: 2}
+  - {fileID: 11400000, guid: 5fc60f196bfb9664cb0912c5a43633aa, type: 2}
+  - {fileID: 11400000, guid: d15e1892ba2a526468d576650337e9c3, type: 2}
+  - {fileID: 11400000, guid: ebcd21cfe8276d042a03f8760b544483, type: 2}
+  - {fileID: 11400000, guid: d4261470092d44d4bbfb3cd357cd0de8, type: 2}
+  - {fileID: 11400000, guid: 7f90b50c15427944cbf11c2367fb12ce, type: 2}
+  - {fileID: 11400000, guid: 2ebe770578c98d4419b4b238d712ece3, type: 2}
+  - {fileID: 11400000, guid: 75e5e2757f9fd2e49a3d79ff3ac50dec, type: 2}
+  - {fileID: 11400000, guid: 4cce76635e68b4e48a076bd4019a1f3b, type: 2}
+  - {fileID: 11400000, guid: 8332762cbc64ade45b7fd437c83a536e, type: 2}
+  - {fileID: 11400000, guid: 87c72f9897fcbc542bd0735e59cde314, type: 2}
+  - {fileID: 11400000, guid: 640339e370ffe3044b4f150188d7fd42, type: 2}
+  - {fileID: 11400000, guid: 89635dadb487e8847a890cde0e79a031, type: 2}
+  - {fileID: 11400000, guid: b80c160b874317e459f002de8311e51a, type: 2}
   mMushroomColors:
-  - {fileID: 11400000, guid: 3332f26558d4b814bb8d8a59b6a1c1ba, type: 2}
-  - {fileID: 11400000, guid: 16ad80e30033d6545940de3d6d49b8f7, type: 2}
+  - {fileID: 11400000, guid: 1de3004ec037ec64fa62d44a90f568e8, type: 2}
+  - {fileID: 11400000, guid: ce88f722756e27548a2d33a1d5cff804, type: 2}
+  - {fileID: 11400000, guid: 9dbc097dedd71f9469c9f6f4d2aa45f3, type: 2}
+  - {fileID: 11400000, guid: e725ef5567195414cb54b5f665362534, type: 2}
+  - {fileID: 11400000, guid: dda2f7f9ac8f63a47977c5a9d27a4290, type: 2}
+  - {fileID: 11400000, guid: 1c30d0599925fce4fb56954eaac4ddad, type: 2}
+  - {fileID: 11400000, guid: 37cb1072c2072a84bb080f0ade22a3fc, type: 2}
+  - {fileID: 11400000, guid: 9abc77efec1896d4e8e7e5cce9ae6cee, type: 2}
   - {fileID: 11400000, guid: f23bf98a27449de478c398fd5b824873, type: 2}
   - {fileID: 11400000, guid: 8f5a1d2d3eef3804ba90f14aca35e276, type: 2}
   mBoardController: {fileID: 552537659}
   mBoardSize: {x: 9, y: 9}
   maxRounds: 10
+  numColors: 4
 --- !u!4 &1521799459
 Transform:
   m_ObjectHideFlags: 0

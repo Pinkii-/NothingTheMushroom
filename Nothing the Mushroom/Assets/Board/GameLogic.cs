@@ -7,14 +7,14 @@ public class GameLogic : MonoBehaviour
 {
     public enum StateType { None, Playing, AnimatingNextRound, Finished };
 
-    public struct MushroomDescriptor
+    public class MushroomDescriptor
     {
         public Vector2Int mPos;
         public MushroomBehaviour mBehaviour;
         public MushroomColor mColor;
     }
 
-    public struct Round
+    public class Round
     {
         public List<MushroomDescriptor> mMushroomsToSpawn;
     }
@@ -27,6 +27,7 @@ public class GameLogic : MonoBehaviour
     [Header("BoardSetup")]
     public Vector2Int mBoardSize;
     public int maxRounds = 10;
+    public int numColors = 4;
     #endregion
 
     public StateType mState { get; private set; } = StateType.None;
@@ -80,23 +81,96 @@ public class GameLogic : MonoBehaviour
 
     private void GenereateRoundForGame()
     {
+        List<MushroomDescriptor> mushroomBases = new List<MushroomDescriptor>();
+        System.Random random = new System.Random();
+
+        { // Generate Color and behaviour links
+            for (int i = 0; i < numColors; ++i) mushroomBases.Add(new MushroomDescriptor());
+        
+            List<int> picked = new List<int>();
+
+            for (int i = 1; i < mMushroomColors.Count; ++i) picked.Add(i);
+
+            for (int i = 0; i < numColors; ++i)
+            {
+                int index = random.Next(picked.Count);
+                mushroomBases[i].mColor = mMushroomColors[index];
+
+                picked.Remove(index);
+            }
+
+            picked = new List<int>();
+
+            for (int i = 1; i < mMushroomBehaviours.Count; ++i) picked.Add(i);
+
+            for (int i = 0; i < numColors; ++i)
+            {
+                int index = random.Next(picked.Count);
+                mushroomBases[i].mBehaviour = mMushroomBehaviours[index];
+
+                picked.Remove(index);
+            }
+        }
+
         mRounds = new List<Round>();
 
+        { // Round Nothing
+            Round round = new Round();
+            round.mMushroomsToSpawn = new List<MushroomDescriptor>();
 
-        Round round = new Round();
-        round.mMushroomsToSpawn = new List<MushroomDescriptor>();
+            MushroomDescriptor nothingMush = GetDescriptorFor(0, 0, mMushroomBehaviours[0], mMushroomColors[0]);
+            round.mMushroomsToSpawn.Add(nothingMush);
 
-        MushroomDescriptor descriptor0 = GetDescriptorFor(mBoardSize.x / 2, mBoardSize.y / 2, mMushroomBehaviours[1], mMushroomColors[1]);
-        MushroomDescriptor descriptor1 = GetDescriptorFor(mBoardSize.x / 3, mBoardSize.y / 5, mMushroomBehaviours[0], mMushroomColors[0]);
-        MushroomDescriptor descriptor2 = GetDescriptorFor(mBoardSize.x / 4, mBoardSize.y / 4, mMushroomBehaviours[1], mMushroomColors[2]);
-        MushroomDescriptor descriptor3 = GetDescriptorFor(mBoardSize.x / 5, mBoardSize.y / 3, mMushroomBehaviours[1], mMushroomColors[3]);
+            mRounds.Add(round);
+        }
 
-        round.mMushroomsToSpawn.Add(descriptor0);
-        round.mMushroomsToSpawn.Add(descriptor1);
-        round.mMushroomsToSpawn.Add(descriptor2);
-        round.mMushroomsToSpawn.Add(descriptor3);
+        { // Round 1
+            Round round = new Round();
+            round.mMushroomsToSpawn = new List<MushroomDescriptor>();
 
-        mRounds.Add(round);
+            int numMush = 2;
+            for (int i = 0; i < numMush; ++i)
+            {
+                var mushBase = mushroomBases[random.Next(numColors)];
+
+                MushroomDescriptor descriptor = GetDescriptorFor(0, 0, mushBase.mBehaviour, mushBase.mColor);
+                round.mMushroomsToSpawn.Add(descriptor);
+            }
+
+            mRounds.Add(round);
+        }
+
+        { // Round 2
+            Round round = new Round();
+            round.mMushroomsToSpawn = new List<MushroomDescriptor>();
+
+            int numMush = 4;
+            for (int i = 0; i < numMush; ++i)
+            {
+                var mushBase = mushroomBases[random.Next(numColors)];
+
+                MushroomDescriptor descriptor = GetDescriptorFor(0, 0, mushBase.mBehaviour, mushBase.mColor);
+                round.mMushroomsToSpawn.Add(descriptor);
+            }
+
+            mRounds.Add(round);
+        }
+
+        { // Round 3
+            Round round = new Round();
+            round.mMushroomsToSpawn = new List<MushroomDescriptor>();
+
+            int numMush = 8;
+            for (int i = 0; i < numMush; ++i)
+            {
+                var mushBase = mushroomBases[random.Next(numColors)];
+
+                MushroomDescriptor descriptor = GetDescriptorFor(0, 0, mushBase.mBehaviour, mushBase.mColor);
+                round.mMushroomsToSpawn.Add(descriptor);
+            }
+
+            mRounds.Add(round);
+        }
     }
 
     private MushroomDescriptor GetDescriptorFor(int x, int y, MushroomBehaviour mushroomBehaviour, MushroomColor mushroomColor)
@@ -112,6 +186,12 @@ public class GameLogic : MonoBehaviour
     private void SetupRound()
     {
         // Present next round to the player with fancy animations :D
+
+        foreach (MushroomDescriptor mush in mRounds[mCurrentRound].mMushroomsToSpawn)
+        {
+            mush.mPos = mBoardController.GetEmptyCell();
+        }
+
         mBoardController.SpawnRound(mRounds[mCurrentRound]);
     }
 
@@ -122,7 +202,6 @@ public class GameLogic : MonoBehaviour
 
     private bool IsEveryOneHappy()
     {
-        // TODO
-        return false;
+        return mBoardController.IsEveryoneHappy();
     }
 }

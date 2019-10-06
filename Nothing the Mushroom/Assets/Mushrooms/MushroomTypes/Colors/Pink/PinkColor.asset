@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4868952874c10564ea7f43a6572dcf77, type: 3}
-  m_Name: ColorBlue
+  m_Name: PinkColor
   m_EditorClassIdentifier: 
-  mHappyAnimator: {fileID: 9100000, guid: d1180019e7778874ca454d71ae15f109, type: 2}
-  mSadAnimator: {fileID: 9100000, guid: f51a99e7609f250479af018e01b7fc1e, type: 2}
+  mHappyAnimator: {fileID: 9100000, guid: 1b012592d987b344e8fa4c4f79319670, type: 2}
+  mSadAnimator: {fileID: 9100000, guid: 640dd3f2af5103c449ae41b171e00ec4, type: 2}

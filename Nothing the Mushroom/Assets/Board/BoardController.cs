@@ -115,6 +115,20 @@ public class BoardController : MonoBehaviour
         }
     }
 
+    internal Vector2Int GetEmptyCell()
+    {
+        System.Random random = new System.Random();
+
+        Vector2Int pos = new Vector2Int(random.Next(sizeX), random.Next(sizeY));
+
+        while (HasMushRoom(pos))
+        {
+            pos = new Vector2Int(random.Next(sizeX), random.Next(sizeY));
+        }
+
+        return pos;
+    }
+
     internal bool IsCenter(Vector2Int pos)
     {
         return pos == new Vector2Int(sizeX/2, sizeY/2);
@@ -192,6 +206,26 @@ public class BoardController : MonoBehaviour
             }
         }
         return amount-1;
+    }
+
+    internal bool IsEveryoneHappy()
+    {
+        bool isTodoHapierino = true;
+        for (int i = 0; i < sizeX; ++i)
+        {
+            for (int j = 0; j < sizeY; ++j)
+            {
+                var pot = mPots[i][j];
+                var mush = pot.GetComponentInChildren<MushroomControlerDeVerdad>();
+
+                if (mush)
+                {
+                    isTodoHapierino &= mush.IsHappy();
+                }
+            }
+        }
+
+        return isTodoHapierino;
     }
 
     internal bool IsBorder(Vector2Int pos)

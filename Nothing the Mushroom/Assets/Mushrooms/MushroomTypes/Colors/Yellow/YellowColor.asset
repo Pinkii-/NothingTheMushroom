@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4868952874c10564ea7f43a6572dcf77, type: 3}
   m_Name: YellowColor
   m_EditorClassIdentifier: 
-  mHappyAnimator: {fileID: 9100000, guid: 5fd2f869ebb0bfa4da2f9978f0d983c1, type: 2}
-  mSadAnimator: {fileID: 9100000, guid: eb189e5e60a4ac14cad5b2a98c7766d4, type: 2}
+  mHappyAnimator: {fileID: 9100000, guid: f2ca74f9b0ee7724f8dc59f0beb0b076, type: 2}
+  mSadAnimator: {fileID: 9100000, guid: b10b3a6ce11b50348896ab42fd85bc23, type: 2}
