@@ -177,7 +177,7 @@ public class BoardController : MonoBehaviour
                 ++amount;
             }
         }
-        return amount;
+        return amount-1;
     }
 
     internal int FriendsAtCol(int col)
@@ -191,7 +191,7 @@ public class BoardController : MonoBehaviour
                 ++amount;
             }
         }
-        return amount;
+        return amount-1;
     }
 
     internal bool IsBorder(Vector2Int pos)
@@ -206,12 +206,12 @@ public class BoardController : MonoBehaviour
 
     internal bool IsBotBorder(Vector2Int pos)
     {
-        return pos.y == sizeY;
+        return pos.y == sizeY-1;
     }
 
     internal bool IsRightBorder(Vector2Int pos)
     {
-        return pos.x == sizeX;
+        return pos.x == sizeX-1;
     }
 
     internal bool IsLeftBorder(Vector2Int pos)
